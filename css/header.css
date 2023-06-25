@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.center-principal{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.logo .h2-logo{
+    color: #B77B5C;
+    letter-spacing: 20px;
+}
+
+.nav-listas .ul-listas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.li-listas, .a-links-listas{
+    list-style-type: none;
+    text-decoration: none;
+    color: #B77B5C;
+}

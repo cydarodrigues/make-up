@@ -1,0 +1,50 @@
+.corpo-main{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artigos{
+    max-width: 100%;
+}
+
+.caixa-sobre{
+    max-width: 100%;
+}
+.cyda-h1{
+    font-size: 4.5em;
+    color: #B77B5C;
+}
+
+.cyda-p{
+    font-size: 1.3rem;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.btn{
+    display: flex;
+}
+
+.btn-whats{
+    margin-top: 10px;
+    letter-spacing: 5px;
+    padding: 15px;
+    background-color: #9DA8A1;
+    color: #B77B5C;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.img-cyda{
+    margin: 0 auto;
+}
+
+.cyda-photo{
+    max-width: 440px;
+}
